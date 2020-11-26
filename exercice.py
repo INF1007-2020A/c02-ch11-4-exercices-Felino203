@@ -53,7 +53,7 @@ def simulate_battle():
 	c3.using_magic = True
 	c4.spell = Spell("Big Fire", 120, 40, 50)
 
-	turns = run_battle(c4, c1)
+	turns = run_battle(c3, c1)
 	print(f"The battle ended in {turns} turns.")
 
 

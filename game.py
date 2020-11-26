@@ -14,8 +14,7 @@ from magician import *
 
 def deal_damage(attacker, defender):
 	damage, crit = attacker.compute_damage(defender)
-	# TODO: Obtenir l'arme utilisée par l'attaquant.
-	#       Si aucune arme n'a été utilisée (last_move_used est None), on affiche "nothing"
+	weapon_used = attacker.last_move_used.name if attacker.last_move_used is not None else "nothing"
 	defender.take_damage(damage)
 	print(f"  {attacker.name} used {weapon_used}")
 	if crit:
