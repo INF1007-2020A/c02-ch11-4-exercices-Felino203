@@ -4,6 +4,8 @@
 data/sample_text.txt
 instructions.md
 README.md
+doc/assets/game_classes.png
+doc/assets/uml.vsdx
 settings/files_to_update.txt
 settings/test_associations.json
 settings/variables.txt
